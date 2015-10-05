@@ -12,7 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center"
-        android:textSize="50dp" />
+        android:textSize="65dp" />
 
     <!-- Layout containing control buttons -->
     <LinearLayout
@@ -45,6 +45,7 @@
             android:text="Resume"/>
 
         <Button
+            android:id="@+id/reset"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
